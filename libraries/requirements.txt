@@ -1,0 +1,13 @@
+# Arduino Library Dependencies for EEG-Drowsiness-Detection-ESP32
+
+arduinoFFT
+BLE
+Wire
+MPU6050
+MQ2
+TinyGPS++
+SoftwareSerial
+
+# Notes:
+# - Install via Arduino Library Manager or manually add from GitHub/PlatformIO.
+# - Ensure compatibility with ESP32 board package (e.g., v2.0.5).

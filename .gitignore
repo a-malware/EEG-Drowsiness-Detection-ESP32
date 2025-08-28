@@ -1,0 +1,63 @@
+# OS files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Arduino/ESP32 build artifacts
+*.elf
+*.bin
+*.hex
+*.map
+build/
+.pio/
+.pioenvs/
+.vscode/
+
+# Logs and temp
+*.log
+*.tmp
+temp/
+
+# Python virtual envs (if any tooling)
+venv/
+.venv/
+
+# Calibration and compiled assets
+data/
+*.csv
+*.dat
+
+# Arduino build files
+*.o
+*.d
+*.elf
+*.hex
+*.bin
+
+# IDE temporary files
+*.DS_Store
+*.sublime-workspace
+*.sublime-project
+
+# Library build artifacts
+libraries/build/
+src/build/
+
+# Serial monitor logs
+serial.log
+
+# OS generated files
+Thumbs.db
+.DS_Store
+__pycache__/
+
+# Arduino IDE specific
+*.pio
+*.build
+
+# Personal configuration
+config.h
+secrets.h
+
+# Test output
+tests/output/
